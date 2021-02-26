@@ -1,24 +1,28 @@
-a{
-  font-family: Roboto;
-
+body {
+ margin: 0;
 }
-div{
-
-font-family: PT Serif;
+.header {
+ display: flex;
+  justify-content: space-between;
 }
-
-button {
-
-font-family: Roboto;
+.wrapper {
+  margin: auto;
+  width: 80%;
 }
 
-h1{
-
-font-family: PT Serif;
+.logo, .menu {
+ display: inline-block;
 }
-
-p {
-
-font-family: Roboto;
-
+.logo {
+ padding: 40px 0;
+}
+.menu {
+ display: flex;
+ align-items: center;
+}
+.menu__item {
+ padding: 0 13px;
+}
+.menu__item:last-child {
+ padding-right: 0;
 }
