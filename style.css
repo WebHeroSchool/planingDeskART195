@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 a{
   font-family: Roboto;
 
@@ -15,10 +16,46 @@ font-family: Roboto;
 h1{
 
 font-family: PT Serif;
+=======
+body {
+ margin: 0;
+}
+.header {
+padding: 40px 0;
+display:flex;
+justify-content:space-between;
+}
+.wrapper {
+margin: auto;
+width: 80%;
 }
 
-p {
+.logo, .menu {
+display: inline-block;
+>>>>>>> Stashed changes
+}
 
+.logo {
+  font: bold 24px/31px pt_serif;
+  width: 190px;
+  height: 35px;
+  border: dashed 1px red;
+  background: url('img/logo.svg');
+}
+
+<<<<<<< Updated upstream
 font-family: Roboto;
 
+=======
+.menu {
+ display: flex;
+ align-items: center;
+}
+.menu__item {
+ padding: 0 13px;
+}
+.menu__item:last-child {
+ padding-right: 0;
+ 
+>>>>>>> Stashed changes
 }
