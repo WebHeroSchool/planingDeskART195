@@ -119,6 +119,8 @@ font: bold 66px/87px 'pt_serifbold', arial, helvetica, sans-serif;
   border-radius: 4px;
   transition: opacity .5s;
   padding-left: 22px;
+
+
 }
 
 .main__button:hover {
@@ -149,6 +151,20 @@ border-radius: 50%;
 opacity:.7;
 }
 
+@keyframes animate__button{
+  0%{
+    color:#fff;
+    background:#0056EC;
+  }
+  100%{
+    color:#fff;
+    background:green;
+    opacity: 1;
+  }
+}
+.main__button:hover{
+  animation: animate__button 1s linear forwards;
+}
 @media (max-width:1366px) {
   .wrapper {
    width: 78%;
