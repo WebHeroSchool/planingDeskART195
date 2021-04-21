@@ -426,8 +426,10 @@ opacity:.7;
      visibility: visible;
    }
 
-  .main {text-align: center;
-    padding: 63% 6px;
+  .main {
+    text-align: center;
+    padding: 0px 6px;
+    padding-top: 63%;
     background-size: 81%;
     margin: 35px 15px;
     background-position: top center;
